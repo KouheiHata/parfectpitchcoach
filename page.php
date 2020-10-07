@@ -1,12 +1,3 @@
-<?php
-
-/*
-Template Name: 記憶力ＵＰ
-*/
-
-?>
-
-
 <?php get_header(); ?>
 
 <div class="container-fluid bg-gray">
