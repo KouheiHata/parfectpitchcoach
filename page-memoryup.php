@@ -23,8 +23,9 @@ Template Name: 記憶力ＵＰ
             <img src="<?php echo esc_url(get_theme_file_uri('images/memoryup/1511920760.jpg')); ?>" alt="">
             <p class="mt-5">「２歳や３歳なんて何も分からない」あなたはそんな風に思っていませんか？絶対音感コーチメソッドで<br><span class="font-weight-bold">こんな変化があった！<br>急に成長した！<br>音が分かるって楽しそう！</span><br>そんなお母さまからの喜びや驚きの声を一部紹介させていただきます。</p>
         </div>
-        <h2 class="heading-md">２歳・３歳　こんなにできる！</h2>
+        
         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+          <h2 class="heading-md">２歳・３歳　こんなにできる！</h2>
            <h3 class="heading-sm">スタート１ヵ月　成長した＆嬉しかった</h3>
            <hr>
            <ul class="memory list-disc">
