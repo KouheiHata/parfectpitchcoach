@@ -478,7 +478,8 @@ img {
 .kitou-third-box p,
 .overview-box p,
 .overview-box td,
-.AandR-box p {
+.AandR-box p,
+.Brain-box p {
     font-size: 16px;
     letter-spacing: .1em;
     line-height: 1.8;
@@ -557,7 +558,8 @@ img {
 .overview-box .section1,
 .overview-box .section2,
 .AandR-box .section1,
-.AandR-box .section2 {
+.AandR-box .section2,
+.Brain-box .section1 {
     padding-bottom: 50px;
 }
 
@@ -566,7 +568,8 @@ img {
 .overview-box .section3 div,
 .AandR-box .section1 div,
 .AandR-box .section2 div,
-.AandR-box .section3 div {
+.AandR-box .section3 div,
+.Brain-box .section1 div {
     padding-top: 20px;
 }
 
@@ -608,16 +611,20 @@ img {
     padding-left: 1em;
     list-style: none;
 }
+
 .qa .list-item:nth-of-type(odd) {
     font-weight: bold;
 }
+
 .qa .list-item:nth-of-type(even) {
     margin-bottom: 1.5rem;
 }
+
 .qa .list-item:nth-of-type(odd)::before {
     content: 'Q.';
-/*    font-weight: bold;*/
+    /*    font-weight: bold;*/
 }
+
 .qa .list-item:nth-of-type(even)::before {
     content: 'A.';
 }
