@@ -44,7 +44,7 @@ Template Name: 記憶力ＵＰ
            
            <h3 class="heading-sm">２～３ヵ月　知っている音・知らない音に反応する</h3>
            <hr>
-           <ul class="memory list-disc">
+           <ul class="list-disc">
                <li class="list-item1">C,G,Am３つのコードとド～ドの単音が分かるようになってビックリ！</li>
                <li class="list-item2">お散歩中「今、Am（コード）の音がしたね！」と言っていた。</li>
                <li class="list-item3">鼻歌を歌っていることが多くなった。</li>
@@ -60,7 +60,7 @@ Template Name: 記憶力ＵＰ
            
            <h3 class="heading-sm">半年～１年でこんなに成長しました！</h3>
            <hr>
-           <ul class="memory list-disc">
+           <ul class="list-disc">
                <li class="list-item1">３歳スタートたった４ヵ月で、３オクターブの音を聴き分けるようになって驚いています。</li>
                <li class="list-item2">音を聞いて素早く答えるのでスゴすぎます！</li>
                <li class="list-item3">音のカード取りが集中して出来るようになり、スピードアップしました。</li>
@@ -75,7 +75,7 @@ Template Name: 記憶力ＵＰ
                <li class="list-item12">毎月成長していくので、来月が楽しみになっています。</li>
            </ul>
            
-           <button class="kitou-btn"><a href="#">次は、お母さまへＱ＆Ａインタビュー</a></button>
+           <button class="kitou-btn mt-5"><a href="#">次は、お母さまへＱ＆Ａインタビュー</a></button>
             
         </div>
     </div>

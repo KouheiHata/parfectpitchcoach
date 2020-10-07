@@ -94,6 +94,10 @@ iframe { border: none;}
 
 a:focus { outline: none;}
 
+button:focus {
+    outline: none;
+}
+
 address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;} 
 
 li img{
