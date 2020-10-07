@@ -75,7 +75,7 @@ Template Name: 記憶力ＵＰ
                <li class="list-item12">毎月成長していくので、来月が楽しみになっています。</li>
            </ul>
            
-           <button class="kitou-btn mt-5"><a href="#">次は、お母さまへＱ＆Ａインタビュー</a></button>
+           <div class="kitou-btn-box mt-5"><a href="#" class="kitou-btn">次は、お母さまへＱ＆Ａインタビュー</a></div>
             
         </div>
     </div>
