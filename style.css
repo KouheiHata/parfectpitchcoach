@@ -559,7 +559,8 @@ img {
 .overview-box .section2,
 .AandR-box .section1,
 .AandR-box .section2,
-.Brain-box .section1 {
+.Brain-box .section1,
+.Brain-box .section2 {
     padding-bottom: 50px;
 }
 
@@ -569,7 +570,8 @@ img {
 .AandR-box .section1 div,
 .AandR-box .section2 div,
 .AandR-box .section3 div,
-.Brain-box .section1 div {
+.Brain-box .section1 div,
+.Brain-box .section2 div{
     padding-top: 20px;
 }
 
