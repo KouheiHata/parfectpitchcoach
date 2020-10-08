@@ -433,6 +433,7 @@ img {
 /* -------------------------------------------------------------------------------- */
 /*	11.	page
 /* -------------------------------------------------------------------------------- */
+/* 見出し */
 .heading-lg {
     border-top: 1px dotted #ccc;
     border-bottom: 1px dotted #ccc;
@@ -489,7 +490,8 @@ img {
     padding-bottom: 50px;
 }
 
-.kitou-second-box div {
+.kitou-second-box div,
+.Brain-box .section5 div {
     padding-bottom: 50px;
 }
 
@@ -560,7 +562,10 @@ img {
 .AandR-box .section1,
 .AandR-box .section2,
 .Brain-box .section1,
-.Brain-box .section2 {
+.Brain-box .section2,
+.Brain-box .section3,
+.Brain-box .section4,
+.Brain-box .section5 {
     padding-bottom: 50px;
 }
 
@@ -571,7 +576,10 @@ img {
 .AandR-box .section2 div,
 .AandR-box .section3 div,
 .Brain-box .section1 div,
-.Brain-box .section2 div{
+.Brain-box .section2 div,
+.Brain-box .section3 div,
+.Brain-box .section4 div,
+.Brain-box .section5 div {
     padding-top: 20px;
 }
 
