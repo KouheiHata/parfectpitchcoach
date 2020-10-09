@@ -30,7 +30,7 @@ Template Name: 概要ページ
             </div>
             <div class="kitou-btn-box">
                 <p class="text-center bold">著書&emsp;おかげさまで重版決定しました！&emsp;Amazonで購入↓</p>
-                <div class="text-center"><a class="kitou-btn">子どもがどんどん賢くなる「絶対音感」の育て方（青春出版社）</a></div>
+                <div class="text-center"><a class="kitou-btn" href="https://www.amazon.co.jp/%E5%AD%90%E3%81%A9%E3%82%82%E3%81%8C%E3%81%A9%E3%82%93%E3%81%A9%E3%82%93%E8%B3%A2%E3%81%8F%E3%81%AA%E3%82%8B%E3%80%8C%E7%B5%B6%E5%AF%BE%E9%9F%B3%E6%84%9F%E3%80%8D%E3%81%AE%E8%82%B2%E3%81%A6%E6%96%B9-%E9%AC%BC%E9%A0%AD-%E6%95%AC%E5%AD%90/dp/4413112156" target="_blank" rel="noopener noreferrer">子どもがどんどん賢くなる「絶対音感」の育て方（青春出版社）</a></div>
             </div>
         </div>
         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 section2">

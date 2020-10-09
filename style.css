@@ -526,6 +526,7 @@ img {
     text-align: center;
     text-decoration: none;
     overflow-wrap: break-word;
+    text-decoration: none !important;
     transition: .3s;
 }
 
@@ -549,6 +550,7 @@ img {
     text-align: center;
     text-decoration: none;
     overflow-wrap: break-word;
+    text-decoration: none !important;
     transition: .3s;
 }
 
