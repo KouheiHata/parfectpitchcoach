@@ -58,9 +58,10 @@ Template Name: 絶対音感と脳科学
             </div>
             <div class="text-center"><a class="kitou-btn">つぎは、メゾット効果の声</a></div>
         </div>
-        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 section6">
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 section6 pb-5">
             <h3 class="heading-md">絶対音感を持った方。ピアノを15年間弾いてなくても1時間でここまで弾けた！</h3>
             <div>
+                <iframe src="https://www.youtube.com/embed/3qTdhS0JgrU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" class="media-youtube" allowfullscreen></iframe>
             </div>
         </div>
     </div>

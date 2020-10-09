@@ -101,6 +101,10 @@
         width: 320px;
         height: 440px;
     }
+    .media-youtube {
+        width: 320px;
+        height: 180px;
+    }
     .overview-box .section2 h4 {
         font-size: 20px;
     }
@@ -128,6 +132,10 @@
     .media-pdf {
         width: 570px;
         height: 784px;
+    }
+    .media-youtube {
+        width: 570px;
+        height: 321px;
     }
     .overview-box .section2 h4 {
         font-size: 20px;

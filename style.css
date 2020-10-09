@@ -599,6 +599,11 @@ img {
     padding: 5px;
 }
 
+.media-youtube {
+    width: 768px;
+    height: 432px;
+}
+
 .media-pic a img {
     height: 210px;
     padding: 5px;
