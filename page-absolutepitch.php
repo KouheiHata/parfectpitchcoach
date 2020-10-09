@@ -30,20 +30,38 @@ Template Name:絶対音感とは
             </div>
         </div>
         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 section2">
-            <h3 class="heading-sm">絶対音感は遺伝ではありません！</h3>
+            <h3 class="heading-md">絶対音感は遺伝ではありません！</h3>
             <img src="<?php echo esc_url( get_theme_file_uri('images/absolutepitch/img2.jpg') ); ?>" width="380px;" alt="イメージ画像">
             <div>
                 <p> 詳しくは<span><a href="#">こちらのページ</a></span>で書いていますが絶対音感は遺伝ではありません！もし遺伝であれば、私も多くの生徒さんも絶対音感が身につかなかったはずです。私のように絶対音感を持ちながら相対音感を持っている人もいれば絶対音感しか持たない人もいます。どちらが良いかという議論より、持っていて楽しい方がいいと思いませんか？少なくとも私は持っていて楽しい音感です。それ以上に何が必要でしょうか？<br><br>それに、音楽で使うのが絶対音感です。全ての音を音叉のように反応してしまうなら、それは楽しくないと思います。絶対音感を持って生きづらいなら、音叉を持ってしまったのかもしれません。音楽が楽しい絶対音感を身につけましょう♪</p>
             </div>
         </div>
         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 section3">
-            <h3 class="heading-sm">絶対音感BASIC検定</h3>
-            <img src="<?php echo esc_url( get_theme_file_uri('images/absolutepitch/img3.jpg') ); ?>"  alt="イメージ画像">
+            <h3 class="heading-md">絶対音感BASIC検定</h3>
+            <img src="<?php echo esc_url( get_theme_file_uri('images/absolutepitch/img3.jpg') ); ?>" alt="イメージ画像">
             <div>
                 <p>全国の認定校レッスンが始まって2月でちょうど2年になりましたが2020年2月末までに絶対音感が身につき、絶対音感BASIC検定に見事合格した生徒さんが32名誕生しました。1年程度で身につけた生徒さんも多く集中力がつき、記憶力が上がっているとお母様方が感じられています。また、運動も好きなお子さんが多いのも特徴的です。鬼頭流絶対音感メソッドだからこそ、頭を柔らかくし、子どもらしいピュアな感性を残しています。ちなみに生徒さんたちのご両親は絶対音感を持っていません。絶対音感は遺伝ではないからです。</p>
             </div>
             <div class="text-center kitou-btn-box">
                 <a class="kitou-btn" href="#">検定についてはこちら</a>
+            </div>
+        </div>
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 section4">
+            <h3 class="heading-sm">絶対音感は幼少期から楽器を習うと身につけられる？</h3>
+            <img src="<?php echo esc_url( get_theme_file_uri('images/absolutepitch/img4.jpg') ); ?>" alt="イメージ画像">
+            <div>
+                <p>絶対音感は「小さい頃から楽器を習うことで身につく」と言われていますが実際にはほんのわずかです。私も３歳からオルガンを始め、気がついたときには絶対音感を持ち耳コピで好きな曲を弾いていましたが幼稚園の頃からかなりの時間を弾いていました。昔は今のように新曲の楽譜がすぐになかったので自分で聞き取らなければ弾けないという状況が練習になったのだと思います。<br><br>音楽家もピアノ指導者も幼少期からピアノのレッスンをしていますが絶対音感を持っている方は少ないのです。</p>
+            </div>
+        </div>
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 section5">
+            <h3 class="heading-sm">幼児期（6歳まで）しか身につかない音感才能</h3>
+            <img src="<?php echo esc_url( get_theme_file_uri('images/absolutepitch/img5.jpg') ); ?>" alt="イメージ画像">
+            <div>
+                <p>人間は「耳に始まり、耳に終わる」と言われていることをご存知でしょうか。お母さんのおなかの中にいるときからお母さんの声や、外の音を聞いていることは医学的にもわかっています。赤ちゃんのために胎教に良いといわれる音楽を聞いていらっしゃったという方も多いのではないでしょうか。<br><br>妊娠8ヶ月ごろ、おなかの赤ちゃんは音を聞き分けられているようでお母さんの声と他の人の声を聞き分けて反応しているそうです。生まれる前から耳が機能していることがわかりますがそれは、赤ちゃんは生まれてすぐの頃視力が弱くぼんやりとしか見えていません。そのため聴力が発達して多くの情報が得られるようにできているのかもしれません。その聴力はお母さんの声を100%聴き分けられるというのですから赤ちゃんは音の記憶能力である絶対音感を持っているようです。これもその背景に赤ちゃんはひとりで何もできませんからお母さんの声を聴き分ける能力を身につけているのでしょう。</p>
+            </div>
+            <div class="text-center kitou-btn-box">
+                <p class="text-center py-3">＃幼稚園受験１位ありがとうございます<br>まだお読みでない方は是非Check</p>
+                <a class="kitou-btn" href="https://ameblo.jp/toon-mikei/entry-12600040395.html" target="_blank" rel="noopener noreferrer">家庭で2歳でもわかる！教えるコツが学べる講座</a>
             </div>
         </div>
     </div>
