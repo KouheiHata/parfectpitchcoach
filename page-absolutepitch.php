@@ -85,6 +85,7 @@ Template Name:絶対音感とは
             <h3 class="heading-md">この音の区別がつきますか？</h3>
             <div>
                 <p>実際に絶対音感を持つとこのように音を聞き分けられます。あなたはこの音を聞き分けられますか？</p>
+                <iframe src="https://www.youtube.com/embed/T0f8mMs2XF8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" class="media-youtube" allowfullscreen></iframe>
                 <div class="text-center kitou-btn-box">
                     <a class="kitou-btn" href="#">その他の動画はこちらから</a>
                 </div>
