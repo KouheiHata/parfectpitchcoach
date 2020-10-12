@@ -489,6 +489,10 @@ img {
     line-height: 1.8;
 }
 
+.absolute-box img {
+    margin-bottom: 20px;
+}
+
 .kitou-top-box {
     padding-bottom: 50px;
 }
