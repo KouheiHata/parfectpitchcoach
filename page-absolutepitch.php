@@ -134,7 +134,7 @@ Template Name:絶対音感とは
         </div>
         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 section15">
             <h3 class="heading-md">ご自宅で鬼頭流絶対音感メソッドを身につけませんか？</h3>
-            <div class="text-center"><a href="#"><img src="<?php echo esc_url( get_theme_file_uri('images/absolutepitch/img13.jpg') ); ?>" width="470px" alt="イメージ画像"></a></div>
+            <div class="text-center"><a href="#"><img src="<?php echo esc_url( get_theme_file_uri('images/absolutepitch/img13.jpg') ); ?>" width="470px" alt="リンク画像"></a></div>
             <div class="text-center kitou-btn-box d-block mx-auto pt-5">
                 <a class="kitou-btn" href="#">絶対音感と脳科学の関係とは？</a>
             </div>

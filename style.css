@@ -482,7 +482,8 @@ img {
 .overview-box td,
 .AandR-box p,
 .Brain-box p,
-.absolute-box p {
+.absolute-box p,
+.video-box p {
     font-size: 16px;
     letter-spacing: .1em;
     line-height: 1.8;
@@ -586,7 +587,11 @@ img {
 .absolute-box .section12,
 .absolute-box .section13,
 .absolute-box .section14,
-.absolute-box .section15 {
+.absolute-box .section15,
+.video-box .section1,
+.video-box .section2,
+.video-box .section3,
+.video-box .section4 {
     padding-bottom: 50px;
 }
 
@@ -617,7 +622,11 @@ img {
 .absolute-box .section12 div,
 .absolute-box .section13 div,
 .absolute-box .section14 div,
-.absolute-box .section15 div {
+.absolute-box .section15 div,
+.video-box .section1 div,
+.video-box .section2 div,
+.video-box .section3 div,
+.video-box .section4 div {
     padding-top: 20px;
 }
 
