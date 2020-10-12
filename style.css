@@ -481,7 +481,8 @@ img {
 .overview-box p,
 .overview-box td,
 .AandR-box p,
-.Brain-box p {
+.Brain-box p,
+.absolute-box p {
     font-size: 16px;
     letter-spacing: .1em;
     line-height: 1.8;
@@ -570,7 +571,22 @@ img {
 .Brain-box .section2,
 .Brain-box .section3,
 .Brain-box .section4,
-.Brain-box .section5 {
+.Brain-box .section5,
+.absolute-box .section1,
+.absolute-box .section2,
+.absolute-box .section3,
+.absolute-box .section4,
+.absolute-box .section5,
+.absolute-box .section6,
+.absolute-box .section7,
+.absolute-box .section8,
+.absolute-box .section9,
+.absolute-box .section10,
+.absolute-box .section11,
+.absolute-box .section12,
+.absolute-box .section13,
+.absolute-box .section14,
+.absolute-box .section15 {
     padding-bottom: 50px;
 }
 
@@ -586,7 +602,22 @@ img {
 .Brain-box .section2 div,
 .Brain-box .section3 div,
 .Brain-box .section4 div,
-.Brain-box .section5 div {
+.Brain-box .section5 div,
+.absolute-box .section1 div,
+.absolute-box .section2 div,
+.absolute-box .section3 div,
+.absolute-box .section4 div,
+.absolute-box .section5 div,
+.absolute-box .section6 div,
+.absolute-box .section7 div,
+.absolute-box .section8 div,
+.absolute-box .section9 div,
+.absolute-box .section10 div,
+.absolute-box .section11 div,
+.absolute-box .section12 div,
+.absolute-box .section13 div,
+.absolute-box .section14 div,
+.absolute-box .section15 div {
     padding-top: 20px;
 }
 
