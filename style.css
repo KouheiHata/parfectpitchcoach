@@ -483,7 +483,8 @@ img {
 .AandR-box p,
 .Brain-box p,
 .absolute-box p,
-.video-box p {
+.video-box p,
+.impressions-box p {
     font-size: 16px;
     letter-spacing: .1em;
     line-height: 1.8;
@@ -595,7 +596,22 @@ img {
 .video-box .section1,
 .video-box .section2,
 .video-box .section3,
-.video-box .section4 {
+.video-box .section4,
+.impressions-box .section1,
+.impressions-box .section2,
+.impressions-box .section3,
+.impressions-box .section4,
+.impressions-box .section5,
+.impressions-box .section6,
+.impressions-box .section7,
+.impressions-box .section8,
+.impressions-box .section9,
+.impressions-box .section10,
+.impressions-box .section11,
+.impressions-box .section12,
+.impressions-box .section13,
+.impressions-box .section14,
+.impressions-box .section15 {
     padding-bottom: 50px;
 }
 
@@ -630,7 +646,22 @@ img {
 .video-box .section1 div,
 .video-box .section2 div,
 .video-box .section3 div,
-.video-box .section4 div {
+.video-box .section4 div,
+.impressions-box .section1 div,
+.impressions-box .section2 div,
+.impressions-box .section3 div,
+.impressions-box .section4 div,
+.impressions-box .section5 div,
+.impressions-box .section6 div,
+.impressions-box .section7 div,
+.impressions-box .section8 div,
+.impressions-box .section9 div,
+.impressions-box .section10 div,
+.impressions-box .section11 div,
+.impressions-box .section12 div,
+.impressions-box .section13 div,
+.impressions-box .section14 div,
+.impressions-box .section15 {
     padding-top: 20px;
 }
 
