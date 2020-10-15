@@ -184,6 +184,36 @@ Template Name: メディア
                     </div>
                 </div>
             </div>
+            <h3 class="heading-sm">本のソムリエ団長さんと出版記念トークショー＆サイン会</h3>
+            <div class="card kitou-card-box">
+                <div class="row no-gutters">
+                    <div class="col-md-12 pb-5">
+                        <img src="<?php echo esc_url( get_theme_file_uri('images/media/5312577015.jpg') ); ?>"><br>
+                        　<br>
+                        <p class="card-text">
+                        2017年6月24日（土）渋谷大盛堂書店さま<br>
+                        　<br>
+                        代表理事初の書籍となります<br>
+                        子どもがどんどん賢くなる「絶対音感」の育て方（青春出版社）<br>
+                        　<br>
+                        の出版を記念して本のソムリエとして有名な団長さんと<br>
+                        出版記念トークショーを開催していただきました。<br>
+                        　<br>
+                        この日のトークは絶対音感の話だけでなく<br>
+                        子育てや教育まで団長さんと<br>
+                        盛り上がりました。<br>
+                        　<br>
+                        絶対音感は持って生まれたものではないか？<br>
+                        特別な人だけが持つ才能ではないか？などと<br>
+                        言われてきましたが<br>
+                        実はそうではないという話に<br>
+                        みなさん興味津々でした！<br>
+                        　<br>
+                        お越し下さったみなさま、ありがとうございました。<br>
+                        </p>
+                    </div>
+                </div>
+            </div>
 
         </div>
     </div>
