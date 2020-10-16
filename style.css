@@ -484,7 +484,8 @@ img {
 .Brain-box p,
 .absolute-box p,
 .video-box p,
-.impressions-box p {
+.impressions-box p,
+.course-box p {
     font-size: 16px;
     letter-spacing: .1em;
     line-height: 1.8;
@@ -611,7 +612,15 @@ img {
 .impressions-box .section12,
 .impressions-box .section13,
 .impressions-box .section14,
-.impressions-box .section15 {
+.impressions-box .section15,
+.course-box .section1,
+.course-box .section2,
+.course-box .section3,
+.course-box .section4,
+.course-box .section5,
+.course-box .section6,
+.course-box .section7,
+.course-box .section8 {
     padding-bottom: 50px;
 }
 
@@ -661,7 +670,15 @@ img {
 .impressions-box .section12 div,
 .impressions-box .section13 div,
 .impressions-box .section14 div,
-.impressions-box .section15 {
+.impressions-box .section15 div,
+.course-box .section1 div,
+.course-box .section2 div,
+.course-box .section3 div,
+.course-box .section4 div,
+.course-box .section5 div,
+.course-box .section6 div,
+.course-box .section7 div,
+.course-box .section8 div {
     padding-top: 20px;
 }
 
