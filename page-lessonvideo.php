@@ -39,30 +39,27 @@ get_header(); ?>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/3qTdhS0JgrU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             
         </div>
-        <div class="col-lg-2 col-md-6 col-sm-12 my-5">
+        <div class="col-lg-2 col-md-6 col-sm-12">
            <div class="kitou-btn-box">
                <a href="" class="kitou-btn">Youtube</a>
            </div>
         </div>
-        <div class="col-lg-2 col-md-6 col-sm-12 my-5">
+        <div class="col-lg-2 col-md-6 col-sm-12">
             <div class="kitou-btn-box"><a href="" class="kitou-btn">お母様の声</a></div>
         </div>
-        <div class="col-lg-2 col-md-6 col-sm-12 my-5">
+        <div class="col-lg-2 col-md-6 col-sm-12">
             <div class="kitou-btn-box"><a href="" class="kitou-btn">楽器選び</a></div>
         </div>
-        <div class="col-lg-2 col-md-6 col-sm-12 my-5">
+        <div class="col-lg-2 col-md-6 col-sm-12">
             <div class="kitou-btn-box"><a href="" class="kitou-btn">子どものきもち</a></div>
         </div>
-        <div class="col-lg-2 col-md-6 col-sm-12 my-5">
+        <div class="col-lg-2 col-md-6 col-sm-12">
             <div class="kitou-btn-box"><a href="" class="kitou-btn">ブログ</a></div>
         </div>
-        <div class="col-lg-2 col-md-6 col-sm-12 my-5">
+        <div class="col-lg-2 col-md-6 col-sm-12">
             <div class="kitou-btn-box"><a href="" class="kitou-btn">メルマガ</a></div>
         </div>
     </div><!-- row end -->
-    <div class="row">
-        
-    </div>
 </div>
 
 
