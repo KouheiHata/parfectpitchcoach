@@ -84,23 +84,7 @@ Template Name: コーチ養育講座
         </div>
         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 section7">
             <h3 class="heading-md">お申し込みフォーム</h3>
-            <form>
-                <div class="form-group">
-                </div>
-                <div class="form-group">
-                    <label for="exampleInputName">Password</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                </div>
-                <div class="form-group">
-                    <label for="exampleInputEmail">Email address</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                </div>
-                <div class="form-group">
-                    <label for="exampleFormControlTextarea1">Example textarea</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
-            </form>
+            <?php echo do_shortcode('[contact-form-7 id="254" title="絶対音感_ピアノ先生のための養成講座"]'); ?>
         </div>
         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 section7">
             <h3 class="heading-md">我が子に身につけさせた先生のご感想</h3>

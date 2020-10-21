@@ -134,6 +134,8 @@ th {
 
 iframe {
     border: none;
+    margin-left: 25%;
+    margin-bottom: 5em;
 }
 
 a:focus {
@@ -515,7 +517,7 @@ p {
     color: #fff !important;
     font-size: 18px;
     margin: 0;
-    padding: 12px 40px;
+    padding: 12px 30px;
     background-color: #cf2e2e;
     border: 2px solid #cf2e2e;
     border-radius: 28px;
@@ -752,6 +754,12 @@ p {
     margin-right: 6px;
 }
 
+/* ピアノ先生のための養成講座 */
+.radio-541 {
+	line-height: 1.2!important;
+	padding: 0px 0px!important;
+	margin: 0px 0px!important;
+}
 
 /* -------------------------------------------------------------------------------- */
 /*	12.	Sidebar
