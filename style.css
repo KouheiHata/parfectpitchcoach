@@ -475,17 +475,7 @@ img {
 
 .kitou-card-box .card-text,
 .kitou-second-box li,
-.kitou-second-box p,
-.kitou-third-box p,
-.kitou-box p,
-.overview-box p,
-.overview-box td,
-.AandR-box p,
-.Brain-box p,
-.absolute-box p,
-.video-box p,
-.impressions-box p,
-.course-box p {
+p {
     font-size: 16px;
     letter-spacing: .1em;
     line-height: 1.8;
