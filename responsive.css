@@ -144,8 +144,8 @@
         height: 784px;
     }
     .media-youtube {
-        width: 570px;
-        height: 321px;
+        width: 550px;
+        height: 309px;
     }
     .overview-box .section2 h4 {
         font-size: 20px;
@@ -163,6 +163,14 @@
     }
     .kitou-third-box .card-body {
         padding-bottom: 2.25rem;
+    }
+    .media-pdf {
+        width: 648px;
+        height: 891px;
+    }
+    .media-youtube {
+        width: 670px;
+        height: 377px;
     }
 }
 @media screen and (min-width: 992px) and (max-width: 1199.98px) {}

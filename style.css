@@ -693,12 +693,16 @@ p {
 }
 
 .media-pdf {
+    display: block;
+    margin: 0 auto;
     width: 800px;
     height: 1100px;
     padding: 5px;
 }
 
 .media-youtube {
+    display: block;
+    margin: 0 auto;
     width: 768px;
     height: 432px;
 }
