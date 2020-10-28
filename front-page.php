@@ -169,17 +169,18 @@ Template Name: TOPページ
         </div>
         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 mt-5">
             <h3 class="heading-md">絶対音感、ピアノ、子育てコラム</h3>
-            <div>
+            <div class="row">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
                 <h3 class="heading-sm">絶対音感コラム</h3>
                 <img src="<?php echo esc_url( get_theme_file_uri('images/top/img15.jpg') ); ?>" alt="イメージ画像">
                 <p class="pt-5">「固定ド」と「移動ド」って言葉を聞いて何となくでもわかる人はともかく<br><br>「何ですかそれは？」<br><br>と思われる方がほとんどではないかと思います。<br>これって知っている人は知っている知識言葉なので知らないと「自分には知識がない？」って思うのは大間違いです。</p>
             </div>
-            <div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
                 <h3 class="heading-sm">絶対音感コラム</h3>
                 <img src="<?php echo esc_url( get_theme_file_uri('images/top/img16.jpg') ); ?>" alt="イメージ画像">
                 <p class="pt-5">絶対音感は楽しい「音」を記憶すること。<br>音というのは、多くの方が気づいていないかもしれませんが、とっても奥深いものです。<br>それは科学や哲学、心理学に繋がっているほど。</p>
             </div>
-            <div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
                 <h3 class="heading-sm">子育てコラム</h3>
                 <img src="<?php echo esc_url( get_theme_file_uri('images/top/img17.jpg') ); ?>" alt="イメージ画像">
                 <p class="pt-5">子どもに家事を教えること<br>私の仕事は、社会で役立つ人に育てるために 大きくなると身につけられない感覚を 幼少期からの時間を使って 無理せず身につけていく方法をお伝えすることです。</p>
@@ -187,7 +188,7 @@ Template Name: TOPページ
                     <a class="kitou-btn" href="#">続きはこちら</a>
                 </div>
             </div>
-            <div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
                 <h3 class="heading-sm">子育てコラム</h3>
                 <img src="<?php echo esc_url( get_theme_file_uri('images/top/img18.jpg') ); ?>" alt="イメージ画像">
                 <p class="pt-5">「◯◯専用」は知恵が育たない<br><br>便利だからと専用ものを使っているお母さんの習慣で子どもたちは知恵が使えなくなってしまいます。</p>
@@ -195,13 +196,119 @@ Template Name: TOPページ
                     <a class="kitou-btn" href="#">続きはこちら</a>
                 </div>
             </div>
-            <div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
                 <h3 class="heading-sm">子育てコラム</h3>
                 <img src="<?php echo esc_url( get_theme_file_uri('images/top/img19.jpg') ); ?>" alt="イメージ画像">
                 <p class="pt-5">衝撃的な事実！<br>お母さんの伝えたいこと98%が無駄！<br><br>お母さんの声のトーンで伝わりにくいと書籍でもお伝えしましたが実はそれだけではありません。</p>
                 <div class="kitou-btn-box text-center">
                     <a class="kitou-btn" href="#">続きはこちら</a>
                 </div>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                <h3 class="heading-sm">子育てコラム</h3>
+                <img src="<?php echo esc_url( get_theme_file_uri('images/top/img20.jpg') ); ?>" alt="イメージ画像">
+                <p class="pt-5">親の無意識な日常で育てたように育つ子どもたち<br><br>子どもは教えたことが身につくのではなく無意識な日常を覚えていくのです。</p>
+                <div class="kitou-btn-box text-center">
+                    <a class="kitou-btn" href="#">続きはこちら</a>
+                </div>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                <h3 class="heading-sm">絶対音感コラム</h3>
+                <img src="<?php echo esc_url( get_theme_file_uri('images/top/img21.jpg') ); ?>" alt="イメージ画像">
+                <p class="pt-5">絶対音感だけ持っている？！<br>音楽を楽しむためには相対音感も必要です<br><br>何でもバランスが崩れると弊害が起きますよね。<br>あなたの知識は間違っていませんか？</p>
+                <div class="kitou-btn-box text-center">
+                    <a class="kitou-btn" href="#">続きはこちら</a>
+                </div>
+            </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                <h3 class="heading-sm">ピアノ・芸術</h3>
+                <img src="<?php echo esc_url( get_theme_file_uri('images/top/img22.jpg') ); ?>" alt="イメージ画像">
+                <p class="pt-5">芸術力は幼少期に育ちます<br><br>これからの時代に必要な力は芸術、クリエイティブな力です。<br>ゼロから1を生み出すためには芸術力が必要です。</p>
+                <div class="kitou-btn-box text-center">
+                    <a class="kitou-btn" href="#">続きはこちら</a>
+                </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                <h3 class="heading-sm">絶対音感コラム</h3>
+                <img src="<?php echo esc_url( get_theme_file_uri('images/top/img23.jpg') ); ?>" alt="イメージ画像">
+                <p class="pt-5">絶対音感カードで触覚と芸術感性を育てる<br><br>いつも使うからカードがヨレないようにパウチする感覚が五感を育てなくしています。<br>使ったから紙が膨らむ、柔らかくなるという感覚を学ばせてたい！</p>
+                <div class="kitou-btn-box text-center">
+                    <a class="kitou-btn" href="#">続きはこちら</a>
+                </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                <h3 class="heading-sm">絶対音感コラム</h3>
+                <img src="<?php echo esc_url( get_theme_file_uri('images/top/img24.jpg') ); ?>" alt="イメージ画像">
+                <p class="pt-5">絶対音感のための楽器選び<br><br>絶対音感を身につけるための楽器は何を選べばいいの？</p>
+                <div class="kitou-btn-box text-center">
+                    <a class="kitou-btn" href="#">続きはこちら</a>
+                </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                <h3 class="heading-sm">ピアノ・芸術</h3>
+                <img src="<?php echo esc_url( get_theme_file_uri('images/top/img25.jpg') ); ?>" alt="イメージ画像">
+                <p class="pt-5">楽器を大切にすると上達します！<br><br>ピアノは木で出来ていますから呼吸をしています。<br>日本の四季の変化で起こる湿気や乾燥が苦手です。お掃除していますか？</p>
+                <div class="kitou-btn-box text-center">
+                    <a class="kitou-btn" href="#">続きはこちら</a>
+                </div>
+                </div>
+            </div>
+            <div class="kitou-btn-box text-center">
+                <a class="kitou-btn" href="#">こちらで詳しく>>> 絶対音感とは</a>
+            </div>
+        </div>
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 mt-5">
+            <h3 class="heading-md">メディア・掲載NEWS!!</h3>
+            <h3 class="heading-sm">2019/4/15<br>ママスタセレクト　専門家コラムにて記事が公開されました。</h3>
+            <img src="<?php echo esc_url( get_theme_file_uri('images/top/img26.png') ); ?>" alt="イメージ画像">
+            <div class="pt-5">
+                <p>幼少期の自宅レッスンは、どんな習い事であれママがつきっきりで面倒をみてあげることになるでしょう。練習しようにも、グズったり甘えたりしてママを悩ます子どももいるかもしれません。ママは一生懸命になればなるほど、時間が取れない、子どもが集中してくれないなどと悩みを抱えてしまいがちです。</p>
+            </div>
+            <div class="kitou-btn-box text-center">
+                <a class="kitou-btn" href="https://select.mamastar.jp/299941?fbclid=IwAR0y_FHyG25sCrmVL0L-qGg1w9p2n5z94_zuLP0QBXTtjxesyWfTscUyk20" target="_blank" rel="noopener noreferrer">続きはこちら</a>
+            </div>
+            <h3 class="heading-sm">2019/4/8<br>ママスタセレクト　専門家コラムにて記事が公開されました。</h3>
+            <img src="<?php echo esc_url( get_theme_file_uri('images/top/img27.png') ); ?>" alt="イメージ画像">
+            <div class="pt-5">
+                <p>聴覚の発達のピークは早い！？<br>絶対音感を身につけるなら「３歳まで」が重要</p>
+            </div>
+            <div class="kitou-btn-box text-center">
+                <a class="kitou-btn" href="https://select.mamastar.jp/299944?fbclid=IwAR1fIwT95Oyvg7ETNO_aYli9YQiqqJpk6M9i2Oyt-ubw6XiPwfqUQFTUwj4" target="_blank" rel="noopener noreferrer">続きはこちら</a>
+            </div>
+            <div class="kitou-btn-box text-center">
+                <a class="kitou-btn" href="#">その他　メディア・掲載はこちら >>></a>
+            </div>
+        </div>
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 mt-5">
+            <div class="text-center my-5">
+                <iframe class="media-youtube" src="https://www.youtube.com/embed/2bZNQP1ZpPw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="text-center my-5">
+                <iframe class="media-youtube" src="https://www.youtube.com/embed/T0f8mMs2XF8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="kitou-btn-box text-center">
+                <a class="kitou-btn" href="#">絶対音感レッスン動画</a>
+            </div>
+            <h3 class="heading-md">「○○専用」は知恵が育たない</h3>
+            <img src="<?php echo esc_url( get_theme_file_uri('images/top/img28.jpg') ); ?>" alt="イメージ画像">
+            <p class="pt-5">便利だからと専用グッズを使っていると知恵を失ってしまいます。</p>
+            <div class="kitou-btn-box text-center">
+                <a class="kitou-btn" href="#">続きはこちら</a>
+            </div>
+        </div>
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 mt-5">
+            <h3 class="heading-md">情報発信中！</h3>
+            <h3 class="heading-sm">絶対音感コーチ学会® 公式ブログ</h3>
+            <div></div>
+            <h3 class="heading-sm">Facebook&emsp;いいね！で情報届きます</h3>
+            <div></div>
+            <h3 class="heading-sm">過去メディア・掲載実績</h3>
+            <div>
+                <p class="py-3"><a href="https://ure.pia.co.jp/articles/-/74298" target="_blank" rel="noopener noreferrer">2017/5/8&emsp;&emsp;ハピママ掲載</a></p>
+                <p class="py-3">2017/6/11&emsp;&emsp;FMおだわら&emsp;印南敦史のキキミミ図書館に出演</p>
+                <p class="py-3"><a href="https://ameblo.jp/toon-mikei/entry-12286835671.html" target="_blank" rel="noopener noreferrer">2017/6&emsp;&emsp;本のソムリエ団長さんとの出版記念トークショー</a></p>
+                <p class="py-3">2017&emsp;&emsp;ヤマハミュージック銀座店・池袋店にて書籍紹介</p>
+                <p class="py-3"><a href="https://www.lifehacker.jp/2017/06/170605_book_to_read.html" target="_blank" rel="noopener noreferrer">2017/6/5&emsp;&emsp;「絶対音感」は育てられる。その理由とは？<br>Yahooニュースに取り上げられました。</a></p>
             </div>
         </div>
     </div>
