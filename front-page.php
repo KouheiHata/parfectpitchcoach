@@ -301,7 +301,9 @@ Template Name: TOPページ
             <h3 class="heading-sm">絶対音感コーチ学会® 公式ブログ</h3>
             <div></div>
             <h3 class="heading-sm">Facebook&emsp;いいね！で情報届きます</h3>
-            <div></div>
+            <div>
+            <div class="fb-page" data-href="https://www.facebook.com/parfectpitchcoach/" data-tabs="timeline" data-width="300" data-height="500" data-small-header="false" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/parfectpitchcoach/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/parfectpitchcoach/">一般社団法人絶対音感コーチ学会</a></blockquote></div>
+            </div>
             <h3 class="heading-sm">過去メディア・掲載実績</h3>
             <div>
                 <p class="py-3"><a href="https://ure.pia.co.jp/articles/-/74298" target="_blank" rel="noopener noreferrer">2017/5/8&emsp;&emsp;ハピママ掲載</a></p>
