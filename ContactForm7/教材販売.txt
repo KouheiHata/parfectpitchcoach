@@ -1,0 +1,29 @@
+<label> <span class="bold">お名前</span> *
+    [text* your-name] </label>
+
+<label> <span class="bold">〒/ご住所</span> *
+    [text* your-address] </label>
+
+<label> <span class="bold">ご連絡の取れるお電話</span> *
+    [tel* tel-822] </label>
+
+<label> <span class="bold">メールアドレス</span> *
+    [email* your-email] </label>
+
+<span class="bold">ご注文</span> *
+    [radio radio-555 use_label_element default:1 "書籍/子どもがどんどん賢くなる「絶対音感」の育て方　1冊　1,300円（税込1,430円）＋送料180円" "絶対音感カード ① １セット　2,000円(税込2,200円）＋送料180円" "絶対音感カード ② １セット 2,000円(税込2,200円）＋送料180円" " 絶対音感カード①＋②　1セット　4,000円(税込4,400円）＋送料180円" "絶対音感カード①＋②＋書籍　5,300円（税込5,830円）＋送料370円" "その他　ご希望のセット数をメモ欄にご記入ください。"]
+
+ <span class="bold">お子様の年齢</span> *
+    [radio radio-544 use_label_element default:1 "0才" "1才" "2才" "3才" "4才" "5才" "6才" "それ以上"]
+
+<label> <span class="bold">商標登録について</span> *
+    [acceptance acceptance-250] 理解しました [/acceptance] </label>
+
+<label> <span class="bold">メッセージ</span>
+    [textarea your-message] </label>
+
+<label>[acceptance acceptance-251] <a href="/privacypolicy">プライバシーポリシー</a>が適用されます [/acceptance]</label>
+　
+<input type="submit" value="送信" class="wpcf7-form-control wpcf7-submit kitou-btn2" />
+　
+<span class="bold">メモ:</span> * は入力必須項目です

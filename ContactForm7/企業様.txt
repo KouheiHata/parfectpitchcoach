@@ -23,6 +23,7 @@
     [textarea* your-message] </label>
 
 [acceptance acceptance-845] <a href="/privacypolicy">プライバシーポリシー</a>が適用されます（承諾確認） [/acceptance]
-
-[submit "送信"]
+　
+<input type="submit" value="送信" class="wpcf7-form-control wpcf7-submit kitou-btn2" />
+　
 *は入力必須項目です。
