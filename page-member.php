@@ -28,14 +28,14 @@ Template Name: 会員専用
                         <div class="card-body">
                         <p class="card-text">絶対音感コーチ学会®の認定校<br>ご入会の生徒ページです。<br><br>以下のボタンから<br>パスワードを入力してください。</p>
                         </div>
-                        <div class="kitou-btn-box"><a class="kitou-btn2">認定校　生徒専用ページ</a></div>
+                        <div class="kitou-btn-box"><a class="kitou-btn">認定校　生徒専用ページ</a></div>
                     </div>
                     <div class="col-md-6 pb-5">
                         <img src="<?php echo esc_url( get_theme_file_uri('images/member/member_image2.jpg') ); ?>" width="136px" alt="イメージ画像">
                         <div class="card-body">
                         <p class="card-text">絶対音感コーチ学会®<br>認定コーチのページです。<br><br>以下のボタンから<br>パスワードを入力してください。</p>
                         </div>
-                        <div class="kitou-btn-box"><a class="kitou-btn2">認定コーチ　専用ページ</a></div>
+                        <div class="kitou-btn-box"><a class="kitou-btn">認定コーチ　専用ページ</a></div>
                     </div>
                 </div>
             </div>

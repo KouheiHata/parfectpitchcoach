@@ -46,7 +46,7 @@ Template Name: 書籍・カード販売
                         <div class="card-body">
                         <div class="card-text">
                         <div class="bold pt-3">＼ おかげさまで 重版しました ／<br>
-                        <a href="https://www.amazon.co.jp/%E5%AD%90%E3%81%A9%E3%82%82%E3%81%8C%E3%81%A9%E3%82%93%E3%81%A9%E3%82%93%E8%B3%A2%E3%81%8F%E3%81%AA%E3%82%8B%E3%80%8C%E7%B5%B6%E5%AF%BE%E9%9F%B3%E6%84%9F%E3%80%8D%E3%81%AE%E8%82%B2%E3%81%A6%E6%96%B9-%E9%AC%BC%E9%A0%AD-%E6%95%AC%E5%AD%90/dp/4413112156?SubscriptionId=AKIAJLD6FH2TADXIQKDQ&tag=amebablog-a2438412-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4413112156" class="kitou-btn2">Amazonリンクページ</a><br>
+                        <a href="https://www.amazon.co.jp/%E5%AD%90%E3%81%A9%E3%82%82%E3%81%8C%E3%81%A9%E3%82%93%E3%81%A9%E3%82%93%E8%B3%A2%E3%81%8F%E3%81%AA%E3%82%8B%E3%80%8C%E7%B5%B6%E5%AF%BE%E9%9F%B3%E6%84%9F%E3%80%8D%E3%81%AE%E8%82%B2%E3%81%A6%E6%96%B9-%E9%AC%BC%E9%A0%AD-%E6%95%AC%E5%AD%90/dp/4413112156?SubscriptionId=AKIAJLD6FH2TADXIQKDQ&tag=amebablog-a2438412-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4413112156" class="kitou-btn">Amazonリンクページ</a><br>
                         　<br>
                         絶対音感がつく訓練によって<br>
                         　<br>
@@ -71,7 +71,7 @@ Template Name: 書籍・カード販売
                         　<br>
                         レッスン方法や上記の詳しい内容については<br>
                         　<br>
-                        <a href="https://www.amazon.co.jp/%E5%AD%90%E3%81%A9%E3%82%82%E3%81%8C%E3%81%A9%E3%82%93%E3%81%A9%E3%82%93%E8%B3%A2%E3%81%8F%E3%81%AA%E3%82%8B%E3%80%8C%E7%B5%B6%E5%AF%BE%E9%9F%B3%E6%84%9F%E3%80%8D%E3%81%AE%E8%82%B2%E3%81%A6%E6%96%B9-%E9%AC%BC%E9%A0%AD-%E6%95%AC%E5%AD%90/dp/4413112156?SubscriptionId=AKIAJLD6FH2TADXIQKDQ&tag=amebablog-a2438412-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4413112156" class="kitou-btn2">子どもがどんどん賢くなる<br class="d-block d-md-none">「絶対音感」の育て方（青春出版社）</a><br>
+                        <a href="https://www.amazon.co.jp/%E5%AD%90%E3%81%A9%E3%82%82%E3%81%8C%E3%81%A9%E3%82%93%E3%81%A9%E3%82%93%E8%B3%A2%E3%81%8F%E3%81%AA%E3%82%8B%E3%80%8C%E7%B5%B6%E5%AF%BE%E9%9F%B3%E6%84%9F%E3%80%8D%E3%81%AE%E8%82%B2%E3%81%A6%E6%96%B9-%E9%AC%BC%E9%A0%AD-%E6%95%AC%E5%AD%90/dp/4413112156?SubscriptionId=AKIAJLD6FH2TADXIQKDQ&tag=amebablog-a2438412-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4413112156" class="kitou-btn">子どもがどんどん賢くなる<br class="d-block d-md-none">「絶対音感」の育て方（青春出版社）</a><br>
                         　<br>
                         をお読みください。<br>
                         （注）鬼頭流絶対音感メソッドだけの成果であり<br>
@@ -183,7 +183,7 @@ Template Name: 書籍・カード販売
                         <span class="bold">特にdocomoメールは戻ってきてしまうことが多い</span>ですので受信設定又はパソコンメール等でお願いします。<br>
                         　<br>
                         <h5>【ご注意】＊絶対音感カードは商標登録されています。<br class="d-block d-md-none">コピー販売、類似品販売、転売等は違法です＊</h5><br>
-                        <?php echo do_shortcode('[contact-form-7 id="247" title="絶対音感_教材販売"]'); ?>
+                        <?php echo do_shortcode('[contact-form-7 id="58" title="書籍・カード販売"]'); ?>
                         </div>  <!-- card-text -->
                         </div>  <!-- card-body -->
                     </div>

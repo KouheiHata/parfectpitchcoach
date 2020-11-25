@@ -35,7 +35,7 @@ Template Name: メルマガ
                         本を読んで始めてみたけれど、やってみたい！やってみたけれど続かない...という方へ子どもたちに教えたい絶対音感の世界やピアノのこと、そして子育てなど役立つ情報をお届けします。
                         </p>
                         </div>
-                        <div class="kitou-btn-box"><a class="kitou-btn2">ママのメルマガ登録はこちら</a></div>
+                        <div class="kitou-btn-box"><a class="kitou-btn">ママのメルマガ登録はこちら</a></div>
                     </div>
                     <div class="col-md-12 pb-3">
                         <h3 class="heading-sm">人気ピアノ教室への道</h3>
@@ -59,7 +59,7 @@ Template Name: メルマガ
                         </ul>
                         </p>
                         </div>
-                        <div class="kitou-btn-box"><a class="kitou-btn2">先生のメルマガ登録はこちら</a></div>
+                        <div class="kitou-btn-box"><a class="kitou-btn">先生のメルマガ登録はこちら</a></div>
                     </div>
                     <div class="col-md-12 pb-5">
                         <h3 class="heading-sm">LINE@</h3>

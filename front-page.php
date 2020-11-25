@@ -254,7 +254,7 @@ Template Name: TOPページ
                 </div>
             </div>
             <div class="kitou-btn-box text-center">
-                <a class="kitou-btn2" href="#">こちらで詳しく>>> 絶対音感とは</a>
+                <a class="kitou-btn" href="#">こちらで詳しく>>> 絶対音感とは</a>
             </div>
         </div>
         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 mt-5">
@@ -276,7 +276,7 @@ Template Name: TOPページ
                 <a class="kitou-btn" href="https://select.mamastar.jp/299944?fbclid=IwAR1fIwT95Oyvg7ETNO_aYli9YQiqqJpk6M9i2Oyt-ubw6XiPwfqUQFTUwj4" target="_blank" rel="noopener noreferrer">続きはこちら</a>
             </div>
             <div class="kitou-btn-box text-center">
-                <a class="kitou-btn2" href="#">その他　メディア・掲載はこちら >>></a>
+                <a class="kitou-btn" href="#">その他　メディア・掲載はこちら >>></a>
             </div>
         </div>
         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 mt-5">

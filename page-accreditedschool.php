@@ -486,7 +486,7 @@ Template Name: 全国認定校
                     </div>
                 </div>
             </div>
-            <div class="kitou-btn-box"><a class="kitou-btn2">認定校　次ページ</a></div>
+            <div class="kitou-btn-box"><a class="kitou-btn">認定校　次ページ</a></div>
         </div>
     </div>
 </div>
