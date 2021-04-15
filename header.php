@@ -32,3 +32,64 @@ wp_deregister_script('jquery');
 
 </head>
 <body <?php body_class (); ?>>
+
+<div class="container">
+    <div class="row">
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12" style="padding-top:50px; text-align: center;">
+            <div style="vertical-align: middle;"><a href="https://www.parfectpitchcoach.com/"><img src="<?php echo esc_url( get_theme_file_uri('images/top/top_logo.png') ); ?>" alt="一般社団法人 絶対音感コーチ学会" class="icon-logo"></a><br>
+            <img src="<?php echo esc_url( get_theme_file_uri('images/top/top_mail.png') ); ?>" alt="お問い合わせ" class="icon-mail"></div>
+        </div>
+    </div>
+</div>
+
+<div class="navbar sticky-top bg-lightblue" id="navbar">
+    <div class="nav-bottom d-none d-lg-block">
+    <ul class="navbar-nav">
+      <li class="nav-item item01">
+        <a class="nav-link dropdown-hover item01-box" href="#">学ぶ時間</a>
+          <ul class="dropdown-list item01-list bg-lightblue">
+              <li class="dropdown-link"><a href="<?php echo home_url( '/' ); ?>">鬼頭流絶対音感</a></li>
+              <li class="dropdown-link"><a href="<?php echo home_url( '/' ); ?>">代表プロフィール</a></li>
+              <li class="dropdown-link"><a href="<?php echo home_url( '/' ); ?>">絶対音感とは</a></li>
+              <li class="dropdown-link"><a href="<?php echo home_url( '/' ); ?>">絶対音感と相対音感</a></li>
+              <li class="dropdown-link"><a href="<?php echo home_url( '/' ); ?>">絶対音感と脳科学</a></li>
+              <li class="dropdown-link"><a href="<?php echo home_url( '/' ); ?>">お母様の声</a></li>
+              <li class="dropdown-link"><a href="<?php echo home_url( '/' ); ?>">お母様Ｑ＆Ａ</a></li>
+              <li class="dropdown-link"><a href="<?php echo home_url( '/' ); ?>">レッスン動画</a></li>
+          </ul>
+      </li>
+      <li class="nav-item item02">
+        <a class="nav-link dropdown-hover item02-box" href="<?php echo home_url( '/news/' ); ?>">講師になる</a>
+          <ul class="dropdown-list item02-list bg-lightblue">
+              <li class="dropdown-link"><a href="<?php echo home_url( '/' ); ?>">ピアノの先生向け認定コーチになりたい方</a></li>
+              <li class="dropdown-link"><a href="<?php echo home_url( '/' ); ?>">コーチの感想</a></li>
+              <li class="dropdown-link"><a href="<?php echo home_url( '/' ); ?>">絶対音感認定校紹介</a></li>
+          </ul>
+      </li>
+      <li class="nav-item item03">
+        <a class="nav-link item03-box" href="<?php echo home_url( '/realestate/' ); ?>">HOUSEじかんとは</a>
+      </li>
+        <li class="nav-item item04">
+        <a class="nav-link item04-box" href="#">お問い合わせ</a>
+      </li>
+      <li class="nav-item item05">
+        <a class="nav-link dropdown-hover item05-box" href="#">ミラクルは何度も起こせる</a>
+          <ul class="dropdown-list item05-list bg-lightblue">
+              <li class="dropdown-link"><a href="<?php echo home_url( '/' ); ?>">検定</a></li>
+              <li class="dropdown-link"><a href="<?php echo home_url( '/' ); ?>">合格発表</a></li>
+              <li class="dropdown-link"><a href="<?php echo home_url( '/' ); ?>">個別発表</a></li>
+          </ul>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<div class="pb-5">
+  <p id="slideshow">
+    <img src="<?php echo esc_url( get_theme_file_uri('images/top/top_haru.jpg') ); ?>" alt="絶対音感 音を堪能する人生を味わう 春" class="active" />
+    <img src="<?php echo esc_url( get_theme_file_uri('images/top/top_natu.jpg') ); ?>" alt="絶対音感 音を堪能する人生を味わう 夏" />
+    <img src="<?php echo esc_url( get_theme_file_uri('images/top/top_aki.jpg') ); ?>" alt="絶対音感 音を堪能する人生を味わう 秋" />
+  </p>
+  <!-- ダミーのスペーサー -->
+  <img src="<?php echo esc_url( get_theme_file_uri('images/top/top_haru.jpg') ); ?>" style="visibility: hidden;" />
+</div>

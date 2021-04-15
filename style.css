@@ -405,7 +405,134 @@ img {
 /* -------------------------------------------------------------------------------- */
 /*	5.	Header
 /* -------------------------------------------------------------------------------- */
+.icon-logo {
+    width: 150px;
+    text-align: center;
+}
+.icon-mail {
+    width: 60px;
+    position: relative;
+    top: -90px;
+    left: 40%;
+}
+/* MENU */
+.navbar {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    padding-left: 10% !important;
+    padding-right: 0 !important;
+    transition: .5s
+}
+.nav-bottom {
+    width: 100%;
+    max-height: 50px;
+    height: 50px;
+    transition: .3s;
+}
+.navbar-nav {
+    flex-direction: inherit;
+    list-style: none;
+}
+.nav-item {
+    display: inline-block;
+    height: 50px;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.item01 {
+    width: 120px;
+}
+.item02 {
+    width: 160px;
+}
+.item03 {
+    width: 230px;
+}
+.item04 {
+    width: 180px;
+}
+.item05 {
+    width: 300px;
+}
+.nav-link {
+    height: 50px;
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #707070;
+}
+.dropdown-list {
+    position: relative;
+    visibility: hidden;
+    opacity: 0;
+    transition: .3s;
+    padding: 10px 10px 10px 10px;
+    list-style: none;
+    z-index: 99;
+    left: -15px;
+}
+.item01-list {
+    width: 280px;
+}
+.item02-list {
+    width: 500px;
+}
+.item05-list {
+    width: 300px;
+}
+.dropdown-link {
+    text-align: center;
+}
+.dropdown-link a {
+    color: #707070;
+    font-size: 20px;
+    font-weight: bold;
+}
+.dropdown-hover:hover + .dropdown-list,
+.dropdown-list:hover,
+.dropdown-hover:active + .dropdown-list {
+    visibility: visible;
+    opacity: 1;
+    transition: .3s;
+}
+.item01-box:hover,
+.item02-box:hover,
+.item03-box:hover,
+.item04-box:hover,
+.item05-box:hover {
+    color: #707070;
+    transition: .3s;
+}
+.item02,
+.item03,
+.item04,
+.item05 {
+    border-left: thin solid #8fadae;
+}
 
+/* スライドショー */
+#slideshow {
+	position: relative;
+	width: 100%;
+}
+
+#slideshow img {
+	position: absolute;
+	top:  0;
+	left: 0;
+	z-index: 8;
+	opacity: 0.0;
+}
+
+#slideshow img.active {
+	z-index: 10;
+	opacity: 1.0;
+}
+
+#slideshow img.last-active {
+	z-index: 9;
+}
 
 /* -------------------------------------------------------------------------------- */
 /*	6.	Menu Navigation
@@ -427,7 +554,50 @@ img {
     opacity: .5;
     transition: .3s;
 }
-
+.midashi-coach {
+    color: #868686;
+    font-size: 24px;
+    font-weight: bold;
+}
+.top-menu-link:hover {
+    color: #868686;
+}
+.menu-img {
+    width: 27vw;
+}
+.menu-title {
+    display: block;
+    color: #868686;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.3;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.menu-line {
+    width: 100%;
+    border-bottom: thin solid #868686;
+}
+.midashi-topics {
+    display: inline-block;
+    color: #868686;
+    padding-bottom: 10px;
+    border-bottom: thin solid #868686;
+    font-size: 36px;
+    font-weight: bold;
+    width: 200px;
+    text-align: center;
+}
+.topic-row {
+    color: #868686;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    border-bottom: thin solid #868686;
+    font-size: 22px;
+    font-weight: bold;
+    width: 80vw;
+    text-align: left;
+}
 /* -------------------------------------------------------------------------------- */
 /*	9.	Archive Page
 /* -------------------------------------------------------------------------------- */
@@ -755,11 +925,35 @@ p,a {
 /* -------------------------------------------------------------------------------- */
 /*	13.	Footer
 /* -------------------------------------------------------------------------------- */
-
-
+.copyright {
+    color: #868686;
+    padding-top: 20px;
+    height: 60px;
+    width: 100%;
+    vertical-align: middle;
+    text-align: center;
+}
+.footer-font,
+.footer-font a {
+    color: #868686;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.4;
+}
+.footer-title {
+    font-size: 18px;
+}
 /* -------------------------------------------------------------------------------- */
 /*	14.	Color
 /* -------------------------------------------------------------------------------- */
 .bg-gray {
     background: #efefef !important;
+}
+
+.bg-lightblue {
+    background: #a8dee0;
+}
+
+.bg-nurple {
+    background: #fbc78d;
 }

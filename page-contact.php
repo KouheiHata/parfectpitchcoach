@@ -24,13 +24,13 @@ Template Name: 取材/お問い合わせ
             <div class="card kitou-card-box">
                 <div class="row no-gutters">
                     <div class="col-md-12 pb-5">
-                        <?php echo do_shortcode('[contact-form-7 id="197" title="絶対音感_企業様"]'); ?>
+                        <?php echo do_shortcode('[contact-form-7 id="57" title="問い合わせ_企業"]'); ?>
                     </div>
 
                     <h3 class="heading-sm">お問い合わせ（一般）</h3>
 
                     <div class="col-md-12 pb-5">
-                        <?php echo do_shortcode('[contact-form-7 id="200" title="絶対音感_一般"]'); ?>
+                        <?php echo do_shortcode('[contact-form-7 id="56" title="問い合わせ_一般"]'); ?>
                     </div>
                 </div>
             </div>
