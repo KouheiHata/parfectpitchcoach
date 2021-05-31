@@ -243,7 +243,7 @@ summary {
 body {
     background: #fff;
     color: #333;
-    font-family: Quicksand, メイリオ, Meiryo, 游ゴシック体, "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    font-family: 'メイリオ', 'Meiryo', '游ゴシック体', 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
     font-size: 18px;
     font-weight: 400;
     -webkit-font-smoothing: antialiased;
@@ -405,23 +405,25 @@ img {
 /* -------------------------------------------------------------------------------- */
 /*	5.	Header
 /* -------------------------------------------------------------------------------- */
-.icon-logo {
-    width: 150px;
-    text-align: center;
+.top-area {
+    padding-bottom: 35px;
 }
-.icon-mail {
-    width: 60px;
-    position: relative;
-    top: -90px;
-    left: 40%;
+
+.icon-logo {
+    padding-top: 25px;
+    width: 180px;
+    text-align: center;
 }
 /* MENU */
 .navbar {
     padding-top: 0 !important;
     padding-bottom: 0 !important;
-    padding-left: 10% !important;
+    padding-left: 0 !important;
     padding-right: 0 !important;
     transition: .5s
+}
+.sticky-top {
+    position: sticky;
 }
 .nav-bottom {
     width: 100%;
@@ -429,16 +431,11 @@ img {
     height: 50px;
     transition: .3s;
 }
-.navbar-nav {
-    flex-direction: inherit;
-    list-style: none;
-}
 .nav-item {
-    display: inline-block;
     height: 50px;
-    text-align: center;
     padding-left: 15px;
     padding-right: 15px;
+    text-align: center;
 }
 .item01 {
     width: 120px;
@@ -457,10 +454,9 @@ img {
 }
 .nav-link {
     height: 50px;
-    padding-top: 10px;
     font-size: 20px;
     font-weight: bold;
-    color: #707070;
+    color: #000;
 }
 .dropdown-list {
     position: relative;
@@ -473,7 +469,7 @@ img {
     left: -15px;
 }
 .item01-list {
-    width: 280px;
+    width: 380px;
 }
 .item02-list {
     width: 500px;
@@ -485,30 +481,48 @@ img {
     text-align: center;
 }
 .dropdown-link a {
-    color: #707070;
+    color: #000;
     font-size: 20px;
     font-weight: bold;
-}
-.dropdown-hover:hover + .dropdown-list,
-.dropdown-list:hover,
-.dropdown-hover:active + .dropdown-list {
-    visibility: visible;
-    opacity: 1;
-    transition: .3s;
 }
 .item01-box:hover,
 .item02-box:hover,
 .item03-box:hover,
 .item04-box:hover,
 .item05-box:hover {
-    color: #707070;
+    color: #000;
     transition: .3s;
 }
 .item02,
 .item03,
 .item04,
 .item05 {
-    border-left: thin solid #8fadae;
+    border-left: thin solid #fff;
+}
+/* ハンバーガーメニュー */
+.hide {
+    display: none;
+}
+.trigger-hide {
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+}
+.p-fixed {
+    position: fixed !important;
+}
+.ham-trigger {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 10px;
+    margin-right: 18px;
+    z-index: 999;
+}
+.ham-img2 {
+    margin-top: 3px;
+    margin-right: 10px;
+    transition: .3s;
 }
 
 /* スライドショー */
@@ -554,49 +568,67 @@ img {
     opacity: .5;
     transition: .3s;
 }
+/* 絶対音感コーチ紹介 */
+.swiper-img {
+    width: 180px;
+}
+
+.swiper-slide a {
+    font-size: 12px!important;
+    color: #000;
+}
+
+/* メニュー画像 */
 .midashi-coach {
-    color: #868686;
+    color: #000;
     font-size: 24px;
     font-weight: bold;
+    padding-bottom: 15px;
 }
 .top-menu-link:hover {
     color: #868686;
 }
+.menu-pl {
+    padding-left: 30px;
+}
 .menu-img {
-    width: 27vw;
+    width: 100%;
+    height: 225px;
 }
 .menu-title {
     display: block;
-    color: #868686;
-    font-size: 18px;
+    color: #000;
+    font-size: 15px;
     font-weight: bold;
     line-height: 1.3;
     padding-top: 10px;
     padding-bottom: 10px;
 }
 .menu-line {
-    width: 100%;
     border-bottom: thin solid #868686;
 }
 .midashi-topics {
-    display: inline-block;
-    color: #868686;
+    display: inline;
+    color: #000;
     padding-bottom: 10px;
     border-bottom: thin solid #868686;
-    font-size: 36px;
+    font-size: 26px;
     font-weight: bold;
     width: 200px;
-    text-align: center;
 }
 .topic-row {
-    color: #868686;
+    display: block;
+    color: #000;
     padding-bottom: 10px;
+    margin-left: 10px;
     margin-bottom: 15px;
     border-bottom: thin solid #868686;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: bold;
-    width: 80vw;
-    text-align: left;
+    line-height: 1.7;
+}
+.topic-time {
+    font-size: 15px;
 }
 /* -------------------------------------------------------------------------------- */
 /*	9.	Archive Page
@@ -925,17 +957,26 @@ p,a {
 /* -------------------------------------------------------------------------------- */
 /*	13.	Footer
 /* -------------------------------------------------------------------------------- */
+.footer-contact {
+    color: #000;
+    border: 1px solid #fbc78d;
+    background-color: #fbc78d;
+    padding: 20px 60px;
+    font-size: 28px!important;
+    text-align: center;
+    white-space: nowrap;
+}
 .copyright {
-    color: #868686;
-    padding-top: 20px;
-    height: 60px;
+    display: inline;
+    color: #000;
+    padding-top: 10px;
+    padding-bottom: 10px;
     width: 100%;
-    vertical-align: middle;
     text-align: center;
 }
 .footer-font,
 .footer-font a {
-    color: #868686;
+    color: #000;
     font-size: 14px;
     font-weight: bold;
     line-height: 1.4;

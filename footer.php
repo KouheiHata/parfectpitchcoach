@@ -1,19 +1,21 @@
 <footer class="footer bg-lightblue">
 
-<div class="container-fluid" style="padding-left: 70px; padding-right: 70px;">
+<div class="container-fluid" style="padding-left: 50px; padding-right: 50px;">
   <div class="row footer-font">
-    <div class="col-12 col-sm-5 pt-5">
+    <div class="col-12 col-lg-5 pt-5">
       <span class="footer-title">CONTENTS</span><br>
       <br>
       <a href="<?php echo home_url( '/' ); ?>" class="top-menu-link">学ぶ時間</a><br>
+      -<a href="<?php echo home_url( '/' ); ?>" class="top-menu-link">絶対音感コーチ学会®︎とは</a><br>
       -<a href="<?php echo home_url( '/' ); ?>" class="top-menu-link">鬼頭流絶対音感</a><br>
-      -<a href="<?php echo home_url( '/' ); ?>" class="top-menu-link">代表プロフィール</a><br>
+      -<a href="<?php echo home_url( '/' ); ?>" class="top-menu-link">鬼頭流絶対音感メソッドでの変化</a><br>
       -<a href="<?php echo home_url( '/' ); ?>" class="top-menu-link">絶対音感とは</a><br>
       -<a href="<?php echo home_url( '/' ); ?>" class="top-menu-link">絶対音感と相対音感</a><br>
       -<a href="<?php echo home_url( '/' ); ?>" class="top-menu-link">絶対音感と脳科学</a><br>
       -<a href="<?php echo home_url( '/' ); ?>" class="top-menu-link">お母様の声</a><br>
-      -<a href="<?php echo home_url( '/' ); ?>" class="top-menu-link">お母様Ｑ＆Ａ</a><br>
+      -<a href="<?php echo home_url( '/' ); ?>" class="top-menu-link">お母様Q &A</a><br>
       -<a href="<?php echo home_url( '/' ); ?>" class="top-menu-link">レッスン動画</a><br>
+      -<a href="<?php echo home_url( '/' ); ?>" class="top-menu-link">音コミュニケーション講座</a><br>
       <a href="<?php echo home_url( '/' ); ?>" class="top-menu-link">講師になる</a><br>
       -<a href="<?php echo home_url( '/' ); ?>" class="top-menu-link">ピアノの先生向け認定コーチになりたい方</a><br>
       -<a href="<?php echo home_url( '/' ); ?>" class="top-menu-link">コーチの感想</a><br>
@@ -29,20 +31,27 @@
       <a href="<?php echo home_url( '/' ); ?>" class="top-menu-link">認定コーチログイン</a><br>
     </div>
 
-    <div class="col-12 col-sm-3 pt-5">
+    <div class="col-12 col-lg-3 pt-5">
       <span class="footer-title">LINKS</span><br>
       <br>
       <a href="<?php echo home_url( '/' ); ?>" class="top-menu-link">代表メルマガ</a><br>
       <a href="<?php echo home_url( '/' ); ?>" class="top-menu-link">代表ブログ</a><br>
+      <br><br>
+      <span class="footer-title">ログイン</span><br>
+      <br>
+      <a href="<?php echo home_url( '/' ); ?>" class="top-menu-link">認定校生徒ログイン</a><br>
+      <a href="<?php echo home_url( '/' ); ?>" class="top-menu-link">認定校コーチログイン</a><br>
     </div>
 
-    <div class="col-12 col-sm-4 pt-5">
+    <div class="col-12 col-lg-4 pt-5">
       <span class="footer-title">ABOUT US</span><br>
       <br>
       テキストテキストテキスト<br>
       〒XXX-XXXX<br>
       東京都テキストテキストテキストテキストテキスト<br>
       TEL.03-XXXX-XXXX <br class="d-lg-none d-inline">FAX.03-XXXX-XXXX<br>
+      <div style="padding-bottom: 50px;"></div><br>
+      <a href="<?php echo home_url('/'); ?>" class="footer-contact">お問い合わせ</a>
     </div>
   </div>
 </div>
@@ -51,7 +60,7 @@
 
 <div class="container-fluid">
   <div class="row">
-    <div class="copyright bg-nurple">(C) 2021 一般社団法人絶対音感コーチ学会 All Rights Reserved.</div>
+    <p class="copyright bg-nurple">(C) 2021 一般社団法人絶対音感コーチ学会 All Rights Reserved.</p>
   </div>
 </div>
 
@@ -84,6 +93,91 @@ function slideSwitch() {
 
 $(function() {
     setInterval( "slideSwitch()", 5000 );
+});
+</script>
+
+<!-- 絶対音感コーチ紹介 -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.5.6/swiper-bundle.min.js" integrity="sha512-n6GpoPKzdir52uRa3Z+M+BxBFNGwMMVTISZM9LMg9lMXyRVrtCcQavkP81NOI06NyVUskN9GLzZIQtPuF3GWLg==" crossorigin="anonymous"></script>
+
+<script>
+var swiper = new Swiper('.swiper-container', {
+  slidesPerView: 2,
+  speed: 3000,
+  autoplay: {
+      delay: 3000,
+      stopOnLastSlide: false,
+      disableOnInteraction: false,
+      reverseDirection: false
+    },
+  breakpoints: {
+    // 768px以上の場合
+    768: {
+      slidesPerView: 3,
+    },
+    // 991px以上の場合
+    991: {
+      slidesPerView: 4,
+    },
+    // 1200px以上の場合
+    1200: {
+      slidesPerView: 5,
+    }
+  }
+});
+</script>
+
+<!-- メニューのアニメーション -->
+<script>
+    $(function(){
+        $(".ham-trigger").click(function(){
+            $(".nav-bottom").toggleClass("visible"); 
+            $(".ham-img1").toggleClass("hide");
+            $(".ham-img2").toggleClass("hide");
+            $(".ham-trigger").toggleClass("p-fixed");
+            $(".sns-trigger").toggleClass("hide");
+        });
+    });
+</script>
+    
+<script>
+    $(function(){
+  $('.ham-trigger').on('click', function() {
+    $(this).toggleClass('active');
+    return false;
+  });
+});
+</script>
+
+<!-- ハンバーガーメニュー -->
+<script>
+$(".item01 a").click(function(){
+    $(".item01-list").toggleClass("list-active"); 
+    $(".item02").toggleClass("mt-list01");
+});
+</script>
+
+<script>
+$(".item02 a").click(function(){
+    $(".item02-list").toggleClass("list-active"); 
+    $(".item03").toggleClass("mt-list02");
+});
+</script> 
+
+<script>
+$(".item05 a").click(function(){
+    $(".item05-list").toggleClass("list-active"); 
+});
+</script>     
+
+<!-- 全体にlazyロード（遅延読み込み） -->
+<script>
+// img要素を一括取得する
+const imgElementList = document.querySelectorAll('img');
+
+// 各Img要素について処理する
+imgElementList.forEach((element) => {
+    // img要素にlazy属性を付与する
+    element.setAttribute('loading', 'lazy');
 });
 </script>
 
